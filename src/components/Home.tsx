@@ -15,7 +15,7 @@ const Home: React.FC = () => (
         <p className="description">Digital Craftsman ( Artist / Developer / Designer )</p>
       </div>
       <div className="profile-pic">
-        <img src="https://th.bing.com/th/id/OIP.ik0XI5uwntrXjky9eKkBEAAAAA?rs=1&pid=ImgDetMain" alt="Profile Picture" />
+        <img src="https://th.bing.com/th/id/OIP.ik0XI5uwntrXjky9eKkBEAAAAA?rs=1&pid=ImgDetMain" />
       </div>
     </div>
     <div className="work">
