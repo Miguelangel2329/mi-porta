@@ -1,0 +1,62 @@
+/* src/styles/Footer.css */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem; /* Añadimos un espacio entre los elementos */
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-info div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; /* Espacio entre el icono y el texto */
+    white-space: nowrap; /* Aseguramos que el texto no se divida en varias líneas */
+  }
+  
+  .contact-info p, .contact-info span {
+    color: aliceblue;
+    margin: 0;
+  }
+  
+  .contact-info span {
+    font-size: 1.2rem;
+  }
+  
+  .copyright {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  /* Estilos para el modo oscuro */
+  .dark-mode .footer {
+    background-color: #1e1e1e;
+    color: #bbb;
+  }
+  
+  .dark-mode .footer .contact-info {
+    color: #bbb;
+  }
+  
+  .dark-mode .footer .copyright {
+    color: #bbb;
+  }
+  

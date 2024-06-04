@@ -1,0 +1,130 @@
+/* src/styles/Home.css */
+.home {
+  padding: 2rem;
+  text-align: center;
+}
+
+.intro {
+  background-color: #ffeea9;
+  color: #000000;
+  padding: 0.5rem;
+  border-radius: 8px;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.profile-details {
+  margin-right: 1rem;
+}
+
+.profile-details h1, .profile-details h2 {
+  margin: 0.5rem 0;
+}
+
+.profile-details h1 {
+  font-size: 2.5rem;
+}
+
+.profile-details h2 {
+  font-size: 2rem;
+}
+
+.profile-details .description {
+  font-size: 1rem;
+  color: #666;
+}
+
+.profile-pic img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.home h1, .home h2 {
+  margin: 0.5rem 0;
+}
+
+.home h1 {
+  font-size: 2.5rem;
+}
+
+.home h2 {
+  font-size: 2rem;
+}
+
+.home .description {
+  font-size: 1rem;
+  color: #666;
+}
+
+.profile-pic {
+  margin: 1rem 0;
+}
+
+.profile-pic img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.work {
+  margin-top: 2rem;
+  text-align: justify;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  text-align: justify;
+}
+
+.work h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.work p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.portfolio-button {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.5rem 1rem;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.portfolio-button:hover {
+  background-color: #45a049;
+}
+
+/* Estilos para el modo oscuro */
+.dark-mode .home {
+  background-color: #121212;
+  color: #fff;
+}
+
+.dark-mode .intro {
+  background-color: #686d76;
+  color: #fff;
+}
+
+.dark-mode .description {
+  color: #bbb;
+}

@@ -1,0 +1,22 @@
+/* src/styles/Certificates.css */
+.certificates {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .certificates h2 {
+    margin-bottom: 20px;
+  }
+  
+  .certificates-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .certificates-grid img {
+    max-width: 45%;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  

@@ -1,0 +1,19 @@
+/* src/styles/App.css */
+
+.App {
+  margin-top: 4rem; /* Añade un margen superior para evitar que el contenido se superponga con el encabezado */
+  min-height: 100vh;
+  background-color: #f8f4e1; /* Color de fondo claro */
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #333; /* Color de texto para modo claro */
+}
+
+/* Estilos para el modo oscuro */
+.dark-mode .App {
+  background-color: #121212;
+  color: #ffffff;
+}

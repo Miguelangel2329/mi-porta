@@ -1,0 +1,11 @@
+/* src/styles/AboutMe.css */
+.about-me {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  /* Estilos para el modo oscuro */
+  .dark-mode .about-me {
+    color: #fff;
+  }
+  

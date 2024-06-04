@@ -1,0 +1,26 @@
+.project-card {
+  text-align: justify;
+  border: 1px solid #ccc;
+  padding: 16px;
+  width: 30%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-image {
+  width: 100%;
+  height: 300px; /* Ajustar esta altura según sea necesario */
+  object-fit: cover; /* Esta propiedad mantiene el aspecto de la imagen */
+  margin-bottom: 16px;
+}
+
+.link-net{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem; /* Añadimos un espacio entre los elementos */
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}

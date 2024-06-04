@@ -1,0 +1,52 @@
+/* src/styles/Header.css */
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem; /* Aumentar el padding para dar más espacio a los lados */
+    background-color: #333;
+    color: #fff;
+    z-index: 1000; /* Asegura que el encabezado esté siempre al frente */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Añadir sombra para mejor visibilidad */
+  }
+  
+  .logo {
+    margin-left: 3rem; /* Añadir margen a la izquierda del logo */
+    font-size: 1.5rem;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .theme-toggle {
+    margin-right: 1rem; /* Añadir margen a la derecha del botón */
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  /* Estilos para el modo oscuro */
+  .dark-mode .header {
+    background-color: #1e1e1e;
+  }
+  
+  .dark-mode .nav-links a {
+    color: #bbb;
+  }
+  
